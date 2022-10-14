@@ -2,6 +2,7 @@
   You should create a test button to test and make sure that it works before hooking it up to any actual scripts. Here's what should be in it, if you aren't a fan of
   doing all of the RemoteEvent shit.
 ]]
+--LocalScript in a TextButton or ImageButton
 script.Parent.MouseButton1Click:Connect(function()
 	local Notification = script.Parent.Parent.Normal:Clone()
 	Notification.Parent = script.Parent.Parent

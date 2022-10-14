@@ -1,0 +1,14 @@
+--[[
+  You should create a test button to test and make sure that it works before hooking it up to any actual scripts. Here's what should be in it, if you aren't a fan of
+  doing all of the RemoteEvent shit.
+]]
+script.Parent.MouseButton1Click:Connect(function()
+	local Notification = script.Parent.Parent.Normal:Clone()
+	Notification.Parent = script.Parent.Parent
+	Notification:TweenPosition(UDim2.new(0.5, 0, 0, 0))
+	Notification.AlertThingy.LocalScript.Disabled = false
+	wait(5)
+	Notification:TweenPosition(UDim2.new(0.5, 0, -0.05, 0))
+	wait(1)
+	Notification:Destroy()
+end)

@@ -1,0 +1,16 @@
+--A TextLabel with the following properties
+AnchorPoint: 0.5, 0
+Name: Normal
+Position: {0.5, 0}, {-0.05, 0}
+Size: {1, 0}, {0.05, 0} --The Y can be anything (the second box) but preferrably should be 0.05, 0, as you wont have to change any scripts or the position.
+--Some funky stuff:
+--A UIGradient in it with the following properties
+Transparency: 0.5 (start - halfway), 1 (end)
+--A UIStroke in it with the following properties
+ApplyStrokeMode: Contextual --Wraps around the text
+Thickness: 2
+Transparency: 0
+--An ImageLabel in it with the following properties
+BackgroundTransparency: 1
+Name: AlertThingy
+Size: {0, 0}, {0, 0} --Will resize in the test script

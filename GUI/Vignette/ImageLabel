@@ -1,2 +1,4 @@
 ImageID: rbxassetid://5614801740
-Size: {1.2, 1.2}
+BackgroundTransparency: 1
+Size: {1.2, 0}, {1.2, 0}
+--Scripts are used to resize this via tweens to add more action to crucial events.
